@@ -1,5 +1,5 @@
 module.exports={
     images:{
-        domains:["fakestoreapi.com","o.remove.bg"]
+        domains:["fakestoreapi.com","images-eu.ssl-images-amazon.com","o.remove.bg"]
     },
 };
