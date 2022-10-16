@@ -44,7 +44,7 @@ const router = useRouter();
               {items.length}
             </span>
 
-            <ShoppingCartOutlinedIcon className="h-10"/>
+            <ShoppingCartOutlinedIcon onClick={() => router.push('/checkout')} className="h-10"/>
             <p onClick={() => router.push('/checkout')} className='hidden sm:inline font-extrabold text-sm mt-2'>Basket</p>
           </div>
         </div>
